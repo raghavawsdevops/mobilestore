@@ -18,4 +18,11 @@
   <build>
     <finalName>capstone_b36</finalName>
   </build>
+<distributionManagement>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>58f1c0a04436-snapshots</name>
+        <url>http://localhost:5040/artifactory/libs-snapshot-local</url>
+    </snapshotRepository>
+</distributionManagement>
 </project>
