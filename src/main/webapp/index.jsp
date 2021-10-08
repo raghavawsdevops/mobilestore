@@ -1,5 +1,5 @@
 <html>
 <body>
-<h2>Hello Capstone. </h2>
+<h2>Hello Capstone App</h2>
 </body>
 </html>
