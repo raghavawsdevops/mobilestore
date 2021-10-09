@@ -7,15 +7,27 @@
   <version>1.0-SNAPSHOT</version>
   <name>CapstoneB36 Webapp</name>
   <url>http://maven.apache.org</url>
-  <distributionManagement>
+  <!--distributionManagement-->
     <!--repository>
       <id>central</id>
       <name>lib-releases</name>
       <url>http://localhost:5040/artifactory/libs-release</url>
-    </repository-->
+    </repository>
     <snapshotRepository>
       <id>snapshots</id>
       <name>snapshots_local</name>
+      <url>http://localhost:5040/artifactory/libs-snapshot-local</url>
+    </snapshotRepository>
+  </distributionManagement-->
+  <distributionManagement>
+    <repository>
+      <id>central</id>
+      <name>1805b83a2481-releases</name>
+      <url>http://localhost:5040/artifactory/libs-snapshot-local</url>
+    </repository>
+    <snapshotRepository>
+      <id>snapshots</id>
+      <name>1805b83a2481-snapshots</name>
       <url>http://localhost:5040/artifactory/libs-snapshot-local</url>
     </snapshotRepository>
   </distributionManagement>
