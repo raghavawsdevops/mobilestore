@@ -15,7 +15,7 @@
     </repository-->
     <snapshotRepository>
       <id>snapshots</id>
-      <name>snapshots-local</name>
+      <name>snapshots_local</name>
       <url>http://localhost:5040/artifactory/libs-snapshot-local</url>
     </snapshotRepository>
   </distributionManagement>
