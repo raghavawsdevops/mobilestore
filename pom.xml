@@ -23,12 +23,12 @@
     <repository>
       <id>central</id>
       <name>1805b83a2481-releases</name>
-      <url>http://localhost:5040/artifactory/libs-snapshot-local</url>
+      <url>http://localhost:5040/artifactory/capstoneb36</url>
     </repository>
     <snapshotRepository>
       <id>snapshots</id>
       <name>1805b83a2481-snapshots</name>
-      <url>http://localhost:5040/artifactory/libs-snapshot-local</url>
+      <url>http://localhost:5040/artifactory/capstoneb36</url>
     </snapshotRepository>
   </distributionManagement>
   <dependencies>
