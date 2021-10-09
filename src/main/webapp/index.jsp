@@ -1,5 +1,5 @@
 <html>
 <body>
-<h2>Hello Capstone Application</h2>
+<h2>Welcome to Capstone Project.</h2>
 </body>
 </html>
