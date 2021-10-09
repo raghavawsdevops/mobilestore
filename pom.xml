@@ -1,13 +1,13 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>com.capstone</groupId>
-  <artifactId>CapstoneB36</artifactId>
-  <packaging>war</packaging>
-  <version>1.0-SNAPSHOT</version>
-  <name>CapstoneB36 Webapp</name>
-  <url>http://maven.apache.org</url>
-  <!--distributionManagement-->
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.capstone</groupId>
+    <artifactId>CapstoneB36</artifactId>
+    <packaging>war</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <name>CapstoneB36 Webapp</name>
+    <url>http://maven.apache.org</url>
+    <!--distributionManagement-->
     <!--repository>
       <id>central</id>
       <name>lib-releases</name>
@@ -19,35 +19,29 @@
       <url>http://localhost:5040/artifactory/libs-snapshot-local</url>
     </snapshotRepository>
   </distributionManagement-->
-  <distributionManagement>
-    <repository>
-      <id>central</id>
-      <name>1805b83a2481-releases</name>
-      <url>http://localhost:5040/artifactory/capstoneb36</url>
-    </repository>
-    <snapshotRepository>
-      <id>snapshots</id>
-      <name>1805b83a2481-snapshots</name>
-      <url>http://localhost:5040/artifactory/capstoneb36</url>
-    </snapshotRepository>
-  </distributionManagement>
-  <dependencies>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>3.8.1</version>
-      <scope>test</scope>
-    </dependency>
-  </dependencies>
-  <build>
-    <finalName>capstone_b36</finalName>
-  <plugins>
-    <plugin>
-      <groupId>org.apache.maven.plugins</groupId>
-      <artifactId>maven-deploy-plugin</artifactId>
-      <version>2.8.2</version>
-    </plugin></plugins>
+    <distributionManagement>
+        <repository>
+            <id>central</id>
+            <name>1805b83a2481-releases</name>
+            <url>http://localhost:5040/artifactory/capstoneb36</url>
+        </repository>
+        <snapshotRepository>
+            <id>snapshots</id>
+            <name>1805b83a2481-snapshots</name>
+            <url>http://localhost:5040/artifactory/capstoneb36</url>
+        </snapshotRepository>
+    </distributionManagement>
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>3.8.1</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+    <build>
+        <finalName>capstone_b36</finalName>
 
-  </build>
+    </build>
 
 </project>
