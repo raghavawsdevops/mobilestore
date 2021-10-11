@@ -6,6 +6,6 @@
 <h3>Welcome to Capstone Project</h3>
 <h2>Welcome to Capstone Project</h2-->
 <h2>Welcome to Capstone Project</h2>
-<h1>CapstoneB36 will kickoff Soon...</h1>
+<h1>SonarQube with Jacoco added....</h1>
 </body>
 </html>
