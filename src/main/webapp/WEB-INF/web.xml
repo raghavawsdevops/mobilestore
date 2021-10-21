@@ -13,7 +13,7 @@
 
     <servlet>
         <servlet-name>Login</servlet-name>
-        <servlet-class>com.mobilestore.controller.MobileLoginController.java</servlet-class>
+        <servlet-class>com.mobilestore.controller.MobileLoginController</servlet-class>
     </servlet>
 
     <!--servlet>
