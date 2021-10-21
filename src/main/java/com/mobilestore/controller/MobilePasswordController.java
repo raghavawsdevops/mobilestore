@@ -30,13 +30,11 @@ public class MobilePasswordController extends HttpServlet {
                 MobileUser updatePwd = new MobileUser("", "", newpass, email);
 
                 if (new MobileService().updatePassword(updatePwd)) {
-                    System.out.println("successfully updated");
-
-                    RequestDispatcher rd = request.getRequestDispatcher("index.jsp");
+                    RequestDispatcher rd = request.getRequestDispatcher("/index.jsp");
                     out.write("password updated");
                     rd.forward(request, response);
+                    out.println("<font color=green>Password updated Successfully!!!</font>");
                 }
-
             } else {
                 out.println("<font color=red>Password and Confirm Password doesn't matches</font>");
             }
