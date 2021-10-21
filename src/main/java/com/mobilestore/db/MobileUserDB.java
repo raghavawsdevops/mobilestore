@@ -16,7 +16,7 @@ public class MobileUserDB {
 
     public MobileUserDB() {
 
-        MobileUser u1 = new MobileUser("A", "P", "1234", "a.p@devops.com");
+        MobileUser u1 = new MobileUser("Shanawaz", "Syed", "12345", "syed@gmail");
         MobileUser u2 = new MobileUser("P", "R", "abcd", "p.r@devops.com");
         MobileUser u3 = new MobileUser("R", "S", "pqrs", "r.s@devops.com");
 

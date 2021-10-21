@@ -16,26 +16,26 @@
         <servlet-class>com.mobilestore.controller.MobileLoginController</servlet-class>
     </servlet>
 
-    <!--servlet>
+    <servlet>
         <servlet-name>Register</servlet-name>
-        <servlet-class>devops.ilp1.controllerWithoutDb.UserRegisterController</servlet-class>
+        <servlet-class>com.mobilestore.controller.MobileRegisterController</servlet-class>
     </servlet>
 
     <servlet>
         <servlet-name>GetPassword</servlet-name>
-        <servlet-class>devops.ilp1.controllerWithoutDb.UserPasswordController</servlet-class>
-    </servlet-->
+        <servlet-class>com.mobilestore.controller.MobilePasswordController</servlet-class>
+    </servlet>
 
     <servlet-mapping>
         <servlet-name>Login</servlet-name>
         <url-pattern>/Login</url-pattern>
     </servlet-mapping>
-    <!-- servlet-mapping>
+    <servlet-mapping>
         <servlet-name>Register</servlet-name>
         <url-pattern>/Register</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
         <servlet-name>GetPassword</servlet-name>
         <url-pattern>/GetPassword</url-pattern>
-    </servlet-mapping -->
+    </servlet-mapping>
 </web-app>
